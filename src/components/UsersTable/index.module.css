@@ -1,0 +1,43 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Фиксированная ширина колонок */
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #fafafa;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.nameColumn {
+  width: 20%;
+}
+
+.emailColumn {
+  width: 33%;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.phoneColumn {
+  width: 20%;
+}
+
+.roleColumn {
+  width: 15%;
+}
+
+.actionsColumn {
+  width: 12%;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
